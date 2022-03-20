@@ -1,0 +1,59 @@
+.content {
+  padding-top: 72px;
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 3rem;
+    height: 61.5vh;
+    width: 100%;
+
+    .description {
+      text-align: center;
+      width: 45rem;
+
+      .title {
+        font-weight: 500;
+        font-size: 2.5rem;
+      }
+
+      .separator {
+        background-color: #efaa66;
+        border: none;
+        margin: 1.5rem auto;
+        height: 0.2rem;
+        max-width: 3.25rem;
+      }
+
+      .description {
+        color: #ffffffbf;
+        margin-bottom: 3rem;
+        font-size: 1.15rem;
+      }
+
+      .invite {
+        cursor: pointer;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: #efaa66;
+        color: #fff;
+        box-sizing: border-box;
+        padding: 1.25rem 2.25rem;
+        border-radius: 18px;
+        font-weight: 700;
+        font-size: 0.85rem;
+        transition: 0.3s;
+
+        &:hover { background-color: #ebb784; }
+      }
+    }
+  }
+
+  .get-started {
+    background-color: #2a2c30;
+    box-sizing: border-box;
+    padding: 8rem 0;
+  }
+}
