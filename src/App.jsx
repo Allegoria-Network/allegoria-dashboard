@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Index from './pages/index/index.jsx';
 import Error404 from './pages/404/404.jsx';

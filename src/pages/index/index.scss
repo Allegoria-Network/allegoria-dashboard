@@ -1,13 +1,18 @@
 .content {
   padding-top: 72px;
 
-  .header {
+  .separator {
+    border: none;
+    margin: 1.5rem auto;
+    height: 0.2rem;
+    max-width: 3.25rem;
+  }
+
+  .header, .get-started {
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    padding: 0 3rem;
-    height: 61.5vh;
     width: 100%;
 
     .description {
@@ -19,14 +24,6 @@
         font-size: 2.5rem;
       }
 
-      .separator {
-        background-color: #efaa66;
-        border: none;
-        margin: 1.5rem auto;
-        height: 0.2rem;
-        max-width: 3.25rem;
-      }
-
       .description {
         color: #ffffffbf;
         margin-bottom: 3rem;
@@ -35,6 +32,7 @@
 
       .invite {
         cursor: pointer;
+        user-select: none;
         text-decoration: none;
         text-transform: uppercase;
         background-color: #efaa66;
@@ -51,9 +49,66 @@
     }
   }
 
+  .header {
+    padding: 0 3rem;
+    height: 61.5vh;
+
+    .description {
+      .separator { background-color: #efaa66; }
+    }
+  }
+
   .get-started {
     background-color: #2a2c30;
-    box-sizing: border-box;
     padding: 8rem 0;
+
+    .description { 
+      .separator { background-color: #fff; }
+    }
+  }
+
+  .features-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #36393f;
+    box-sizing: border-box;
+    padding: 8rem 3rem;
+    width: 100%;
+
+    .description {
+      .title {
+        font-weight: 500;
+        font-size: 2.5rem;
+      }
+
+      .separator { background-color: #efaa66; }
+
+      .features {
+        display: flex;
+        flex-wrap: wrap;
+
+        .feature {
+          text-align: center;
+          box-sizing: border-box;
+          padding: 0 20px;
+          width: 25%;
+
+          .bi {
+            fill: #efaa66;
+            height: 2.5rem;
+            width: 2.5rem;
+          }
+
+          .feature-title {
+            font-weight: 500;
+            font-size: 1.5rem;
+          }
+
+          .feature-description { color: #6c757d; }
+        }
+      }
+    }
   }
 }
