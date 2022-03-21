@@ -8,15 +8,15 @@ function Index() {
           <h1 className="title">Games are always better with friends!</h1>
           <hr className="separator"></hr>
           <p className="description">Start now an incredible adventure with your friends in discord! Earn money, fight yourself, marry yourself and more!</p>
-          <a href="/invite" target="_blank" class="invite" rel="noopener noreferrer">Add to Discord!</a>
+          <a href="/invite" target="_blank" className="invite" rel="noopener noreferrer">Add to Discord!</a>
         </div>
       </header>
       <section className="get-started">
         <div className="description">
-          <h1 className="title">We've got what you were looking for!</h1>
+          <h2 className="title">We've got what you were looking for!</h2>
           <hr className="separator"></hr>
           <p className="description">Start THE adventure of your life on... Discord! Interact with your friends and make new friends! this bot is for you!</p>
-          <a href="/invite" target="_blank" class="invite" rel="noopener noreferrer">Get started!</a>
+          <a href="/invite" target="_blank" className="invite" rel="noopener noreferrer">Get started!</a>
         </div>
       </section>
       <section className="features-section">
@@ -53,6 +53,12 @@ function Index() {
               <p className="feature-description">Made with love for YOU.</p>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="add-bot">
+        <div className="description">
+          <h2 className="title">Uh! You're still there? What are you waiting for?</h2>
+          <a href="/invite" target="_blank" className="invite" rel="noopener noreferrer">Add to Discord!</a>
         </div>
       </section>
     </div>

@@ -1,0 +1,42 @@
+.footer {
+  background-color: #36393f;
+  padding: 3rem;
+  
+  .description {
+    text-align: center;
+    font-size: 0.875em;
+
+    .copyright {
+      .text { color: #6c757d; }
+
+      .green-bot-invite {
+        color: #efaa66;
+        transition: 0.2s;
+
+        &:hover { color: #a44a32; }
+      }
+    }
+
+    .useful-links {
+      .title {
+        color: #6c757d;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+      }
+
+      .links {
+        .link {
+          color: #efaa66;
+          transition: 0.2s;
+
+          &:hover { color: #a44a32; }
+        }
+
+        .separator {
+          color: #6c757d;
+          padding: 0 5px;
+        }
+      }
+    }
+  }
+}

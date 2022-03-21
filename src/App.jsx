@@ -1,8 +1,9 @@
 import './App.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Index from './pages/index/index.jsx';
-import Error404 from './pages/404/404.jsx';
-import Navbar from './components/Navbar/Navbar.jsx';
+import Index from './pages/index/index';
+import Error404 from './pages/404/404';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 console.log(Navbar);
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={ <Index /> } exact />
           <Route path="*" element={ <Error404 /> } />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

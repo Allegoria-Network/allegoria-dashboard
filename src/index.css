@@ -11,6 +11,18 @@ p, h1, h2, h3, h4, h5, input, span, ul, li {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #2a2c30;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: #efaa66;
+  border-radius: 8px;
 }
